@@ -5,8 +5,6 @@ class Solution:
         
         for l in broken:
             words = [x for x in words if l not in x]
-            print(l)
-            print(words)
         
         return len(words)
         
